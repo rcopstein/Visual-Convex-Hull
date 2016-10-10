@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Visual Convex Hull</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+
+  </head>
+
+  <body>
+
+    <!-- Top Action Bar -->
+
+    <div class="top-panel">
+
+      <div class="wrapper">
+
+        <div class="left">
+
+          <a id='HomeButton' class="icon-link action-button" href="http://rcopstein.github.io"><i>home</i></a>
+
+        </div>
+
+        <div class="right">
+
+          <div id='ClearButton' class="action-button"><i>clear</i></div>
+          <div id='FirstStep' class="action-button"><i>first_page</i></div>
+          <div id='PreviousStep' class="action-button"><i>navigate_before</i></div>
+          <div id='NextStep' class="action-button"><i>navigate_next</i></div>
+          <div id='LastStep' class="action-button"><i>last_page</i></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <!-- Main Content -->
+
+    <div class="wrapper">
+
+      <!-- Canvas -->
+
+      <canvas id='MainCanvas' class="card card-1">
+        Your browser does not support the canvas element...
+      </canvas>
+
+      <!-- About & Instructions -->
+
+      <div class="clearfix">
+
+        <div class="half left">
+
+          <h2>About</h2>
+
+          <p>This app provides a graphical representation of the <b>Graham Scan</b> algorithm for finding the convex hull of a set of points</p>
+
+        </div>
+
+        <div class="half right">
+
+          <h2>Instructions</h2>
+
+          <p>Click the canvas to add a new point. Once you have enough points the convex hull will be drawn. You can use the buttons above to see each step of the algorithm or to clear the canvas</p>
+
+        </div>
+
+      </div>
+
+      <div class="clear"></div>
+
+      <!-- Footer -->
+
+      <div class="footer">
+
+        Created by Rafael Copstein in 2016
+
+      </div>
+
+    </div>
+
+    <script src="Scripts/script.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,132 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Material Icons";
+    src: url(../Fonts/Material_Icons/MaterialIcons-Regular.ttf);
+}
+
+/* Structure */
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+  float: none;
+}
+
+.half {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+
+  background: #e2e1e0;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.top-panel {
+  height: 50px;
+  padding: 20px 0px;
+}
+
+.top-panel .action-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+canvas {
+  width: 100%;
+  height: 600px;
+}
+
+.footer {
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+
+/* Style */
+
+a.icon-link {
+  color: #000;
+  text-decoration: none;
+  font-family: "Material Icons";
+}
+
+canvas {
+  background: #FFF;
+  border-radius: 5px;
+
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none; 
+}
+
+.action-button {
+  cursor: pointer;
+  border-radius: 50%;
+
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none; 
+}
+
+.action-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.action-button:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Icons */
+
+i {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}

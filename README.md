@@ -1,2 +1,2 @@
-# Visual-Convex-Hull
-Visual representation of the convex hull problem using the Graham Scan algorithm
+# Visual Convex Hull
+This app provides a graphical representation of the **Graham Scan** algorithm for finding the convex hull of a set of points
