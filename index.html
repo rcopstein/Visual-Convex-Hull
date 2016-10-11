@@ -12,23 +12,55 @@
 
     <!-- Top Action Bar -->
 
-    <div class="top-panel">
+    <div class="header">
 
-      <div class="wrapper">
+      <div class="wrapper float-container">
 
-        <div class="left">
+        <div class="half left">
 
-          <a id='HomeButton' class="icon-link action-button" href="http://rcopstein.github.io"><i>home</i></a>
+          <div class="button">
+
+              <a href="http://rcopstein.github.io">
+              
+                <i>home</i>
+              
+              </a>
+            
+            </div>
 
         </div>
 
-        <div class="right">
+        <div class="half right">
 
-          <div id='ClearButton' class="action-button"><i>clear</i></div>
-          <div id='FirstStep' class="action-button"><i>first_page</i></div>
-          <div id='PreviousStep' class="action-button"><i>navigate_before</i></div>
-          <div id='NextStep' class="action-button"><i>navigate_next</i></div>
-          <div id='LastStep' class="action-button"><i>last_page</i></div>
+          <div class="button" id='ClearButton'>
+            
+            <i>clear</i>
+            
+          </div>
+          
+          <div class="button" id='FirstStep'>
+            
+            <i>first_page</i>
+            
+          </div>
+
+          <div class="button" id='PreviousStep'>
+            
+            <i>navigate_before</i>
+            
+          </div>
+          
+          <div class="button" id='NextStep'>
+            
+            <i>navigate_next</i>
+            
+          </div>
+          
+          <div class="button" id='LastStep'>
+            
+            <i>last_page</i>
+            
+          </div>
 
         </div>
 
@@ -36,21 +68,19 @@
 
     </div>
 
-    <div class="clear"></div>
-
     <!-- Main Content -->
 
     <div class="wrapper">
 
       <!-- Canvas -->
 
-      <canvas id='MainCanvas' class="card card-1">
+      <canvas id='MainCanvas'>
         Your browser does not support the canvas element...
       </canvas>
 
       <!-- About & Instructions -->
 
-      <div class="clearfix">
+      <div class="float-container">
 
         <div class="half left">
 
@@ -70,15 +100,13 @@
 
       </div>
 
-      <div class="clear"></div>
-
       <!-- Footer -->
 
-      <div class="footer">
+      <footer>
 
         Created by Rafael Copstein in 2016
 
-      </div>
+      </footer>
 
     </div>
 
